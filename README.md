@@ -1,6 +1,9 @@
-PROJECT_NAME=movies
-REDIS_HOST=a_redis
-REDIS_PORT=6379
-ELASTIC_HOST=a_elasticsearch
-ELASTIC_PORT=9200
+Async Api for media service.
+Developt on FastAPI.
+Run by ASGI(uvicorn).
+Content storage is ElasticSearch.
+For cache used Redis Cluster.
+All components running by Docker.
 
+
+for run rename .env.simple to .env
